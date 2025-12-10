@@ -1,22 +1,20 @@
-# Compiled executables
+# Compiled binaries
 server
 client
 *.o
-*.a
-*.so
 
-# Editor and IDE files
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+
+# OS files
 .DS_Store
+Thumbs.db
 
 # Build artifacts
-build/
-dist/
-
-# Local environment
-.env
-.env.local
+*.a
+*.so
+core
